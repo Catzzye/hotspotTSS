@@ -1,5 +1,8 @@
 //Norman
 	
+	
+	
+	
 .marker{
 	background-color:#7c7a7a;}
 
@@ -128,6 +131,13 @@ border:1px solid #df0909; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 body{
 background-color:#d8f8ff;
 }
+
+a{
+	background-color: lightblue;
+	text-decoration: underline dotted blue;
+	text-align: center;
+	font-size:24;
+	}
 
 //Klaric
 
