@@ -139,8 +139,29 @@ a{
 	text-decoration: underline dotted blue;
 	text-align: center;
 	font-size:24;
-	}
 
+	}
+	
+.rasporedgumbujutro{
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size:3em;
+	color:yellow;
+	text-align:center;
+	background-color: orange;
+	text-decoration: underline dotted yellow;
+	
+}
+
+.rasporedgumbpopodne{
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size:3em;
+	color:orange;
+	text-align:center;
+	background-color: yellow;
+	text-decoration: underline dotted orange;
+	
+}
+	
 //Klaric
 
 ul {
