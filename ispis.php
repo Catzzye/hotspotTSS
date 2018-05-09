@@ -28,13 +28,14 @@ ul {
 <img class ="naslovnaslika" src="banner.jpg" alt="Banner TŠS"> 
 
 	<ul>
-	  <li><a href="index.php">Poèetna</a></li>
+	<ul>
+	  <li><a href="index.php">Pocetna</a></li>
 	  <li><a href="smjerovi.html">O smjerovima</a></li>
-	  <li><a href="povijest.html">Povijest TŠS</a></li>
-	  <li><a href="upis.html">Upisi u TŠS</a></li>
+	  <li><a href="povijest.html">Povijest TSS</a></li>
+	  <li><a href="upis.html">Upisi u TSS</a></li>
 	  <li><a href="raspored.html">Raspored sati</a></li>  
-	  <li><a href="zr.html">O završnom radu</a></li>
-	  <li><a href="kontakt.php">Kontaktirajte TŠS</a></li>
+	  <li><a href="zr.html">O zavrsnom radu</a></li>
+	  <li><a href="kontakt.php">Kontaktirajte TSS</a></li>
 	  <li><a href="admin.php">Prijava</a></li>
 	</ul>
 
@@ -47,7 +48,7 @@ ul {
 					if($user == "admin" && $pas == "admin"){
 					
 					echo '	
-					<h1>Novi podatak za naslovnu stranicu.</h1>
+					<h1>Unesite novu vijest za naslovnu stranicu!</h1>
 	
 					<form method="GET" action="feed.php">
 					naslov<br><br>
@@ -58,7 +59,7 @@ ul {
 					</form><br><br>
 
 
-					<h1>Upiti od posjetitelja</h1>';
+					<h1>Posjetiteljevi upiti:</h1>';
 					
 					$servername ="localhost";
 					$username = "root";
@@ -84,7 +85,7 @@ ul {
 					mysqli_free_result($result);
 					echo "</table>";
 					}else{
-						echo "<h1>pogresan username ili password</h1>";
+						echo "<h1>Pogresan username ili password</h1>";
 					}
 
 
@@ -100,7 +101,7 @@ ul {
 
 
 <div class="podnozje">
-Tehnièka Škola Sisak Adresa: Marijana Cvetkoviæa 2, 44000 Sisak // Projekt izradili: Norman Podgoršek, Filip Rakas, Andrija Klariæ, Antonio Žugaj </div>
+Tehnièka Škola Sisak Adresa: Marijana Cvetkovica 2, 44000 Sisak // Projekt izradili: Norman Podgorsek, Antonio Žugaj, Filip Rakas ,Andrija Klaric </div>
 </body>
 
 </html>

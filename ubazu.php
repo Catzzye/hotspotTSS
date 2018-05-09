@@ -26,13 +26,13 @@ ul {
 <img class ="naslovnaslika" src="banner.jpg" alt="Banner TŠS"> 
 
 	<ul>
-	  <li><a href="index.php">Poèetna</a></li>
+	  <li><a href="index.php">Pocetna</a></li>
 	  <li><a href="smjerovi.html">O smjerovima</a></li>
-	  <li><a href="povijest.html">Povijest TŠS</a></li>
-	  <li><a href="upis.html">Upisi u TŠS</a></li>
+	  <li><a href="povijest.html">Povijest TSS</a></li>
+	  <li><a href="upis.html">Upisi u TSS</a></li>
 	  <li><a href="raspored.html">Raspored sati</a></li>  
-	  <li><a href="zr.html">O završnom radu</a></li>
-	  <li><a href="kontakt.php">Kontaktirajte TŠS</a></li>
+	  <li><a href="zr.html">O zavrsnom radu</a></li>
+	  <li><a href="kontakt.php">Kontaktirajte TSS</a></li>
 	  <li><a href="admin.php">Prijava</a></li>
 	</ul>
 
@@ -65,15 +65,15 @@ Hvala na slanju upita</div></div> <br>	<br>
 
 	?>
 <script>
-alert("Upit posaln.");
+alert("Upit poslan! Hvala!");
 
 </script>
 
 <br> <br>
-<a class="button_povratak" href="index.php">Povratak na poèetnu stranicu</a> <br> <br> &nbsp;
+<a class="button_povratak" href="index.php">Povratak na pocetnu stranicu</a> <br> <br> &nbsp;
 
 <div class="podnozje">
-Tehnièka Škola Sisak Adresa: Marijana Cvetkoviæa 2, 44000 Sisak // Projekt izradili: Norman Podgoršek, Filip Rakas, Andrija Klariæ, Antonio Žugaj </div>
+Tehnièka Škola Sisak Adresa: Marijana Cvetkovica 2, 44000 Sisak // Projekt izradili: Norman Podgorsek, Antonio Žugaj, Filip Rakas ,Andrija Klaric </div>
 </body>
 
 </html>

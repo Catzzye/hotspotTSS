@@ -30,13 +30,13 @@ ul {
 <img class ="naslovnaslika" src="banner.jpg" alt="Banner TŠS"> 
 
 	<ul>
-	  <li><a href="index.php">Poèetna</a></li>
+	  <li><a href="index.php">Pocetna</a></li>
 	  <li><a href="smjerovi.html">O smjerovima</a></li>
-	  <li><a href="povijest.html">Povijest TŠS</a></li>
-	  <li><a href="upis.html">Upisi u TŠS</a></li>
+	  <li><a href="povijest.html">Povijest TSS</a></li>
+	  <li><a href="upis.html">Upisi u TSS</a></li>
 	  <li><a href="raspored.html">Raspored sati</a></li>  
-	  <li><a href="zr.html">O završnom radu</a></li>
-	  <li><a href="kontakt.php">Kontaktirajte TŠS</a></li>
+	  <li><a href="zr.html">O zavrsnom radu</a></li>
+	  <li><a href="kontakt.php">Kontaktirajte TSS</a></li>
 	  <li><a href="admin.php">Prijava</a></li>
 	</ul> <hr>
 
@@ -50,7 +50,7 @@ Kontaktirajte Tehnièku školu Sisak </div></div> <br>	<br>
 
 <form method ="GET" action="ispis.php">
 <center>
-Username   <input type="text" name = "user">     Passward    <input type="password" name="pas">
+Username:   <input type="text" name = "user">     Password:    <input type="password" name="pas">
 <br><br>
 <input type="submit" name="login">
 
